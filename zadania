@@ -9,6 +9,12 @@ jak dziaa concat?
 select concat(klienci.imie,' ', klienci.nazwisko) as sample_concat
 from klienci;
 
+
+left/right
+
+select concat(left(klienci.imie),' ', left(klienci.nazwisko) as sample_concat
+from klienci;
+
 ZADANIE LANCUCHY - 
 
 
