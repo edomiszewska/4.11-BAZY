@@ -1,2 +1,14 @@
 left/right, concat, substring, upper
 
+
+
+na bazie cars
+jak dziaa concat?
+
+
+select concat(klienci.imie,' ', klienci.nazwisko) as sample_concat
+from klienci;
+
+ZADANIE LANCUCHY - 
+
+
