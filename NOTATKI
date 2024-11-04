@@ -18,3 +18,11 @@ from klienci;
 ZADANIE LANCUCHY - 
 
 
+SELECT concat
+(upper(left(uczniowie.imie,1))  , 
+substring(uczniowie.imie,2)) as imie,
+concat
+(upper(left(uczniowie.nazwisko,1)),
+substring(uczniowie.nazwisko,2))  as nazwisko
+
+from uczniowie;
