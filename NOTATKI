@@ -26,3 +26,17 @@ substring(uczniowie.nazwisko,2))
 as `imie i nazwisko`,
 concat('wiek: ',uczniowie.wiek, ', nr w dzienniku: ', uczniowie.id) as `informacje dodatkowe`
 from uczniowie;
+
+
+
+
+
+W CMD
+
+cd c:/xampp/mysql/bin
+
+mysql -u root -p
+create user 'superuser_5i1'@'localhost' identified by 'qwerty';
+grant all privileges on *.* to 'superuser_5i1'@'localhost';
+quit
+mysql -u superuser_5i1 -p
