@@ -40,3 +40,22 @@ create user 'superuser_5i1'@'localhost' identified by 'qwerty';
 grant all privileges on *.* to 'superuser_5i1'@'localhost';
 quit
 mysql -u superuser_5i1 -p
+
+
+JUZ NORMALNIE W PHPMYADMIN:
+create user 'admin_zwierzaki_5i1'@'localhost' identified by 'qwerty';
+grant all privileges on *.* to 'admin_zwierzaki5i1'@'localhost';
+create user 'admin_kotki_5i1'@'localhost' identified by 'qwerty';
+grant all privileges on kotki to 'admin_kotki_5i1'@'localhost';
+create user 'admin_pieski_5i1'@'localhost' identified by 'qwerty';
+grant all privileges on pieski to 'admin_pieski_5i1'@'localhost';
+create user 'admin_swinki_5i1'@'localhost' identified by 'qwerty';
+grant all privileges on swinki to 'admin_swinki_5i1'@'localhost';
+create user 'maniek_5i1'@'localhost' identified by 'qwerty';
+grant SELECT on kotki to 'maniek_5i1'@'localhost';
+create user 'jozek_5i1'@'localhost' identified by 'qwerty';
+grant SELECT, delete, insert on pieski to 'jozek_5i1'@'localhost';
+create user 'bronek_5i1'@'localhost' identified by 'qwerty';
+grant create,update on *.* to 'jozek_5i1'@'localhost';
+grant select on kotki to 'jozek_5i1'@'localhost';
+grant select on swinki to 'jozek_5i1'@'localhost';
