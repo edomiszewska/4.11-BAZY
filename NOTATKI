@@ -56,6 +56,6 @@ grant SELECT on kotki to 'maniek_5i1'@'localhost';
 create user 'jozek_5i1'@'localhost' identified by 'qwerty';
 grant SELECT, delete, insert on pieski to 'jozek_5i1'@'localhost';
 create user 'bronek_5i1'@'localhost' identified by 'qwerty';
-grant create,update on *.* to 'jozek_5i1'@'localhost';
+grant create,alter on *.* to 'jozek_5i1'@'localhost';
 grant select on kotki to 'jozek_5i1'@'localhost';
 grant select on swinki to 'jozek_5i1'@'localhost';
