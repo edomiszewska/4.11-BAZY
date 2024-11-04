@@ -23,5 +23,6 @@ SELECT concat
 substring(uczniowie.imie,2) ," ",
 upper(left(uczniowie.nazwisko,1)),
 substring(uczniowie.nazwisko,2))  
-as `imie i nazwisko`
+as `imie i nazwisko`,
+concat('wiek: ',uczniowie.wiek, ', nr w dzienniku: ', uczniowie.id) as `informacje dodatkowe`
 from uczniowie;
