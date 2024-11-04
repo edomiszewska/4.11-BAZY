@@ -75,7 +75,7 @@ pracownicy.NazwiskoPracownika,
 'pracownik'
 from pracownicy;
 =================
-
+UNION, INTERSECT, EXCEPT
 
 cos takiego
 
