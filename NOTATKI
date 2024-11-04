@@ -59,3 +59,5 @@ create user 'bronek_5i1'@'localhost' identified by 'qwerty';
 grant create,alter on *.* to 'jozek_5i1'@'localhost';
 grant select on kotki to 'jozek_5i1'@'localhost';
 grant select on swinki to 'jozek_5i1'@'localhost';
+
+REVOKE .., from.. - aby usunac
