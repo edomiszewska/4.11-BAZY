@@ -61,3 +61,22 @@ grant select on kotki to 'jozek_5i1'@'localhost';
 grant select on swinki to 'jozek_5i1'@'localhost';
 
 REVOKE .., from.. - aby usunac
+
+
+=================
+select klienci.ImieKlienta as 'imie',
+klienci.NazwiskoKlienta as 'nazwisko',
+klienci.MiastoKlienta as 'miasto',
+'klient' as 'kto'
+from klienci
+union 
+select pracownicy.ImiePracownika,
+pracownicy.NazwiskoPracownika,
+'pracownik'
+from pracownicy;
+=================
+
+
+cos takiego
+
+i na egzaminie probnym moze byc takie zadanie jak wlasnie z txt zadania z widokiem!
